@@ -8,7 +8,7 @@ If I was working in Spotify's marketing departmant, I would like to know that wh
 Can the popularity of the song predicted by using its features such as genre, acousticness, danceability, tempo etc.?
 
 #### Data Source
-Downloaded data from https://www.kaggle.com/datasets/zaheenhamidani/ultimate-spotify-tracks-db on 2022, 26th October
+Downloaded data from [kaggle](https://www.kaggle.com/datasets/zaheenhamidani/ultimate-spotify-tracks-db) on 2022, 26th October
 
 #### Sample from Data
 ![alt text](https://github.com/elifsenaozefe/song_popularity_prediction/blob/main/sample.png?raw=true)
