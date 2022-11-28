@@ -15,11 +15,11 @@ Downloaded data from https://www.kaggle.com/datasets/zaheenhamidani/ultimate-spo
 
 #### Methodology
 
-I tried to two approaches to the question. First one is, taking it as a regression problem. This approach 35 as mean absolute error. As a second way, I treated the question as a classification problem and cut the data into three bins with ranges equal to (-1, 25), (25, 50) and (50, 100) and labels as low, mid and high respectively. Ranges of bins are not equal to not create an imbalanced data problem.
+I tried two approaches to the question. First one is, taking it as a regression problem. This approach ended with 35 as mean absolute error. As a second way, I treated the question as a classification problem and cut the data into three bins with ranges equal to (-1, 25), (25, 50) and (50, 100) and labels as low, mid and high respectively. Ranges of bins are not equal to not create an imbalanced data problem.
 
 <p> After feature elimination with RFECV, final data has shaped as (164060, 43). With this data; decision tree, random forest, XGBoost, LightGBM and naive bayes have run. </p>
 
 #### Results
-As a result of GridSearchCV, LightGBM with default parameters can predict songs' popularity with 79% accuracy. 79% can be taken as base line score and a feature engineering step can be added to improve the success of the model.
+As a result of GridSearchCV, LightGBM with default parameters can predict songs' popularity with 79% accuracy.
 
 Both EDA & predictions are [here](https://github.com/elifsenaozefe/song_popularity_prediction/blob/main/spotify_tracks_popularity_prediction.ipynb).
